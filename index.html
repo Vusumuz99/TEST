@@ -21,7 +21,35 @@
 
 <br> <br>
 
-   <section name="nationlity" id="nationality"></section>
+nationality :
+<select name="nationality" id="nationality">
+    <option value="South African">South African</option>
+    <option value="Foreigner">Foreigner</option>
+</select> 
+<br><br>
+
+Select apploitical party :
+
+<br> <br>
+
+<input type="radio" name="party" value="ANC">ANC <br>
+
+<input type="radio" name="party" value="DA">DA <br>
+
+<input type="radio" name="party" value="EFF">EFF <br>
+
+<br><br>
+
+<button onclick="vote">VOTE</button>
+
+<hr>
+
+<br>
+
+<h3>Total number of vote</h3>
+<p>ANC : <span id="ancTotal">0</span></p>
+<p>DA : <span id="daTotal">0</span></p>
+<p>EFF : <span id="effTotal">0</span></p>
 
     <script src="./script.js"></script>
 </body>
